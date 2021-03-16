@@ -34,7 +34,6 @@
             this.button2 = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.lbltimer = new System.Windows.Forms.Label();
-            this.lblShowAnswer = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -89,17 +88,6 @@
             this.lbltimer.TabIndex = 3;
             this.lbltimer.Text = "0";
             // 
-            // lblShowAnswer
-            // 
-            this.lblShowAnswer.AutoSize = true;
-            this.lblShowAnswer.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lblShowAnswer.Location = new System.Drawing.Point(34, 288);
-            this.lblShowAnswer.Name = "lblShowAnswer";
-            this.lblShowAnswer.Size = new System.Drawing.Size(111, 17);
-            this.lblShowAnswer.TabIndex = 4;
-            this.lblShowAnswer.Text = "Показать ответ";
-            this.lblShowAnswer.Click += new System.EventHandler(this.lblShowAnswer_Click);
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -117,7 +105,6 @@
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(491, 509);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.lblShowAnswer);
             this.Controls.Add(this.lbltimer);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -137,7 +124,6 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Label lbltimer;
-        private System.Windows.Forms.Label lblShowAnswer;
         private System.Windows.Forms.Label label1;
     }
 }

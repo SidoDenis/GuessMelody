@@ -43,12 +43,5 @@ namespace Kursovaja
         {
             timer1.Stop();
         }
-
-        private void lblShowAnswer_Click(object sender, EventArgs e)
-        {
-            var mp3file = TagLib.File.Create(Victorina.answer);
-
-            lblShowAnswer.Text = mp3file.Tag.FirstPerformer + "-" + mp3file.Tag.Title;
-        }
     }
 }
